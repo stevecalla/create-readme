@@ -39,6 +39,12 @@ const promptQuestion = [
     message: 'Please enter your email address?',
     name: 'emailAddress',
   },
+  {
+    type: 'list',
+    message: 'Please select a license?',
+    name: 'license',
+    choices: [ "Choice A", "choice B" ]
+  },
 ];
 
 module.exports = {

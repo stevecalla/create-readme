@@ -9,31 +9,38 @@
 5. [Resources](#resources)
 6. [License](#license)
 
-
 ## Description
 
 ```
-a 
+b 
 ```
 
 ## Installation
 
-a
+c
 
 ## Usage
 
-a
+d
 
 ## Tests
 
-a
+ef
 
 ## Contributing
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-a
+g
 
 ## Resources
 
-1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/a)
-2. Contact Email: [Steve Calla - email](a)
+1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/h)
+2. Contact Email: [Steve Calla - email](i)
+
+## License
+
+Choice A
+
+![APM](https://img.shields.io/apm/l/NPM)
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)

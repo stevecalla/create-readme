@@ -1,1 +1,1 @@
-{"title":"a","description":"a","instructions":"a","usage":"a","tests":"a","contributing":"a","userName":"a","emailAddress":"a"}
+{"title":"a","description":"b","instructions":"c","usage":"d","tests":"ef","contributing":"g","userName":"h","emailAddress":"i","license":"Choice A"}
