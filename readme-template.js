@@ -1,8 +1,8 @@
-const readmeTemplate = `## Overview
+const readmeTemplate = (param) => `## Overview
 
-\```
+\`\`\`
 As an employee with access to sensitive data I want to randomly generate a password that meets certain criteria so that I can create a strong password that provides greater security
-\```
+\`\`\`
 
 
 ## Index
@@ -31,7 +31,7 @@ As an employee with access to sensitive data I want to randomly generate a passw
 
 ## Criteria
 
-\```
+\`\`\`
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
 THEN I am presented with a series of prompts for password criteria
@@ -47,7 +47,7 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
-\```
+\`\`\`
 
 ## Website Preview - Static Screenshot
 
@@ -75,3 +75,4 @@ THEN the password is either displayed in an alert or written to the page
 module.exports = {
   readmeTemplate,
 };
+
