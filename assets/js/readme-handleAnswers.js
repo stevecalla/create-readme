@@ -1,9 +1,19 @@
 const fs = require('fs');
 const template = require('./readme-template');
+const { licenseBadges } = require('./readme-badges');
 
 function handleAnswers(answers) {
 
-  answers.badges = 'hello';
+  // licenseBadges.forEach(element => console.log(element))
+
+  // let licenseList = licenseBadges.map(element => element.license);
+  // console.log(licenseList);
+
+  let renderBadge = licenseBadges.filter(element => element.license.toLowerCase() === answers.license.toLowerCase())
+  console.log('test ', renderBadge)
+
+  answers.licenseBadge = renderBadge[0].badge;
+  // answers.licenseBadge = renderBadge;
   console.log('4 ', answers);
   
   fs.writeFile('readme-draft.md', template.readmeTemplate(answers), function (err) {

@@ -1,4 +1,5 @@
-# A 
+#  
+[![License:  MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Index
 
@@ -12,35 +13,33 @@
 ## Description
 
 ```
-a 
+ 
 ```
 
 ## Installation
 
-a
+
 
 ## Usage
 
-a
+
 
 ## Tests
 
-a
+
 
 ## Contributing
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-a
+
 
 ## Resources
 
-1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/a)
-2. Contact Email: [Steve Calla - email](a)
+1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/)
+2. Contact Email: [Steve Calla - email]()
 
 ## License
 
-Choice A
+Mozilla Public License 2.0
 
-![APM](https://img.shields.io/apm/l/NPM)
-
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License:  MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)

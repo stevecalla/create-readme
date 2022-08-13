@@ -1,3 +1,5 @@
+const { licenseList } = require('./readme-badges');
+
 const promptQuestion = [
   {
     type: 'input',
@@ -43,7 +45,9 @@ const promptQuestion = [
     type: 'list',
     message: 'Please select a license?',
     name: 'license',
-    choices: [ "Choice A", "choice B" ]
+    // choices: [ "Apache 2.0 License", "BSD 2-Clause License", "Attribution 4.0 International"]
+    choices: licenseList,
+    // choices: licenseBadges.map(element => element.license).sort().map((element, index) => `${index + 1} ${element}`)
   },
 ];
 

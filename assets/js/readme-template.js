@@ -1,4 +1,6 @@
-const readmeTemplate = ( { title, description, instructions, usage, tests, contributing, userName, emailAddress, license } ) => `# ${title.toUpperCase()} 
+const readmeTemplate = ( { title, description, instructions, usage, tests, contributing, userName, emailAddress, license, licenseBadge } ) => 
+`# ${title.toUpperCase()} 
+${licenseBadge}
 
 ## Index
 
@@ -41,9 +43,7 @@ ${contributing}
 
 ${license}
 
-![APM](https://img.shields.io/apm/l/NPM)
-
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+${licenseBadge}`
 
 module.exports = {
   readmeTemplate,
