@@ -1,1 +1,1 @@
-{"title":"","description":"","instructions":"","usage":"","tests":"","contributing":"","userName":"","emailAddress":"","license":"Mozilla Public License 2.0"}
+{"title":"","description":"","instructions":"","usage":"","tests":"","contributing":"","userName":"","emailAddress":"","license":"ABCDEFG"}

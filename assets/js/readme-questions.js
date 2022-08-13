@@ -1,3 +1,4 @@
+const { NONAME } = require('dns');
 const { licenseList } = require('./readme-badges');
 
 const promptQuestion = [
@@ -42,12 +43,14 @@ const promptQuestion = [
     name: 'emailAddress',
   },
   {
-    type: 'list',
+    type: 'rawlist',
     message: 'Please select a license?',
     name: 'license',
     // choices: [ "Apache 2.0 License", "BSD 2-Clause License", "Attribution 4.0 International"]
     choices: licenseList,
     // choices: licenseBadges.map(element => element.license).sort().map((element, index) => `${index + 1} ${element}`)
+    pageSize: 10,
+    default: 0,
   },
 ];
 

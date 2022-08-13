@@ -6,10 +6,16 @@ const { getAnswers } = require('./readme-getAnswers'); // Step #3: read answers 
 const template = require('./readme-template'); // Step #3a: readme-template used to build readme
 
 async function main() {
+  const instrx = instructions();
   const promptAnswers = await inquirer.prompt(promptQuestion); // Step #1
   console.log('1 = ', promptAnswers);
   await writeAnswers(JSON.stringify(promptAnswers)); // Step #2
   await getAnswers(); // Step #3
+}
+
+function instructions() {
+  console.log('The following prompts will quickly create a professional README for a new project. Please answer each question. If a question is not answered that section will not appear in the README. After completion, the README will be available in the current directory.');
+  console.log(`------------------\n`);
 }
 
 main()

@@ -9,6 +9,9 @@ function handleAnswers(answers) {
   // let licenseList = licenseBadges.map(element => element.license);
   // console.log(licenseList);
 
+  let licenseList = licenseBadges.map(element => element.license).sort();
+  console.log(licenseList)
+
   let renderBadge = licenseBadges.filter(element => element.license.toLowerCase() === answers.license.toLowerCase())
   console.log('test ', renderBadge)
 
