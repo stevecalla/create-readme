@@ -1,4 +1,4 @@
-const { NONAME } = require('dns');
+// const { NONAME } = require('dns');
 const { licenseList } = require('./readme-badges');
 
 const promptQuestion = [
@@ -71,8 +71,9 @@ const promptQuestion = [
   {
     prefix: '⠋🟡 7)',
     type: 'input',
-    message: 'Please provide examples of how to run tests?',
-    name: 'tests',
+    message: 'Please add the path/URL for a static image of the project (i.e. ./assets/images/project-name.png)?',
+    name: 'staticImage',
+    default: './assets/images/example-image.png',
     suffix: ' 🟡',
     filter(answer) {
       return answer.trim()
@@ -81,8 +82,9 @@ const promptQuestion = [
   {
     prefix: '⠋🟡 8)',
     type: 'input',
-    message: 'Please provide guidelines to contribute to your project?',
-    name: 'contributing',
+    message: 'Please add the path/URL for a video of the project (i.e. ./assets/images/powder-bound.gif)?',
+    name: 'video',
+    default: './assets/images/example-video.gif',
     suffix: ' 🟡',
     filter(answer) {
       return answer.trim()
@@ -90,6 +92,27 @@ const promptQuestion = [
   },
   {
     prefix: '⠋🟡 9)',
+    type: 'input',
+    message: 'Please provide examples of how to run tests?',
+    name: 'tests',
+    suffix: ' 🟡',
+    filter(answer) {
+      return answer.trim()
+    },
+  },
+  {
+    prefix: '⠋🟡 10)',
+    type: 'input',
+    message: 'Please provide guidelines to contribute to your project?',
+    name: 'contributing',
+    default: './assets/images/example-video.gif',
+    suffix: ' 🟡',
+    filter(answer) {
+      return answer.trim()
+    },
+  },
+  {
+    prefix: '⠋🟡 11)',
     type: 'input',
     message: 'Please enter your GitHub user name?',
     name: 'userName',
@@ -99,7 +122,7 @@ const promptQuestion = [
     },
   },
   {
-    prefix: '⠋🟡 10)',
+    prefix: '⠋🟡 12)',
     type: 'input',
     message: 'Please enter your email address?',
     name: 'emailAddress',
@@ -112,7 +135,7 @@ const promptQuestion = [
     }
   },
   {
-    prefix: '⠋🟡 11)',
+    prefix: '⠋🟡 13)',
     type: 'rawlist',
     message: 'Please select a license?',
     name: 'license',

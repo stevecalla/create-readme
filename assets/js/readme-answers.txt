@@ -1,1 +1,1 @@
-{"title":"a","description":"","instructions":"","usage":"","features":"","enhancements":"","tests":"","contributing":"","userName":"","emailAddress":"a@a.com","license":"NONE. I'LL DECIDE LATER"}
+{"title":"a","description":"a","instructions":"","usage":"","features":"","enhancements":"","staticImage":"./assets/images/example-image.png","video":"./assets/images/example-video.gif","tests":"","contributing":"./assets/images/example-video.gif","userName":"","emailAddress":"a@a.com","license":"NONE. I'LL DECIDE LATER"}

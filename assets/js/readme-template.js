@@ -1,4 +1,4 @@
-const readmeTemplate = ( { title, description, instructions, usage, features, enhancements, tests, contributing, userName, emailAddress, license, licenseBadge } ) => 
+const readmeTemplate = ( { title, description, instructions, usage, features, enhancements, staticImage, video, tests, contributing, userName, emailAddress, license, licenseBadge } ) => 
 `# ${title.toUpperCase()} 
 ${licenseBadge}
 
@@ -7,10 +7,8 @@ ${licenseBadge}
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
-<!-- 
 4. [Features](#features)
 5. [Future Enhancements](#future-enhancements)
--->
 6. [Contributing](#contributing)
 7. [Resources](#resources)
 8. [License](#license)
@@ -45,16 +43,15 @@ ${enhancements}
 2. TBD
 3. TBD
 -->
-<!-- 
-## Website Preview - Static Screenshot
 
-<img alt="" src="" width="100%" height="425>
+## App Preview - Static Screenshot
+
+<img alt="" src="${staticImage}" width="100%" height="425"/>
 
 
-## Website Preview - Video Preview
+## App Preview - Video Preview
 
-<img alt="" src="" width="100%" height="425"/>
--->
+<img alt="" src=${video} width="100%" height="425"/>
 
 ## Tests
 
@@ -72,7 +69,7 @@ ${contributing}
 
 ## License ${licenseBadge}
 
-This project is licensed under the terms of the <span style="color:red">${license}</span>. Please click on the license badge for more information.
+This project is licensed under the terms of the <span style="color:blue">${license}</span>. Please click on the license badge for more information.
 
 <!-- DELETE THIS SECTION FOR THE FINAL README. Per Github, you are under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we strongly encourage you to include an open source license. The Open Source Guide provides additional guidance on choosing the correct license for your project. SEE THE FOLLOWING LINKS FOR MORE INFORMATION:
 
