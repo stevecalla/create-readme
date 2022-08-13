@@ -12,30 +12,30 @@
 ## Description
 
 ```
-b 
+a 
 ```
 
 ## Installation
 
-c
+a
 
 ## Usage
 
-d
+a
 
 ## Tests
 
-ef
+a
 
 ## Contributing
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-g
+a
 
 ## Resources
 
-1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/h)
-2. Contact Email: [Steve Calla - email](i)
+1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/a)
+2. Contact Email: [Steve Calla - email](a)
 
 ## License
 
