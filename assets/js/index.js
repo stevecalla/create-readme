@@ -6,7 +6,7 @@ const { getAnswers } = require('./readme-getAnswers'); // Step #3: read answers 
 const template = require('./readme-template'); // Step #3a: readme-template used to build readme
 
 async function main() {
-  const instrx = instructions();
+  instructions();
   const promptAnswers = await inquirer.prompt(promptQuestion); // Step #1
   console.log('1 = ', promptAnswers);
   await writeAnswers(JSON.stringify(promptAnswers)); // Step #2
@@ -14,9 +14,22 @@ async function main() {
 }
 
 function instructions() {
-  console.log('The following prompts will quickly create a professional README for a new project. Please answer each question. If a question is not answered that section will not appear in the README. After completion, the README will be available in the current directory.');
+  console.log('The following prompts will create a professional README for a project. Please answer each question. If a question is not answered a header for that section will appear in the README. After completion of all prompts, the README will be available in the current directory, and can be edited to include the final content.');
   console.log(`------------------\n`);
 }
+
+// const ui = new inquirer.ui.BottomBar();
+
+// // pipe a Stream to the log zone
+// outputStream.pipe(ui.log);
+
+// // Or simply write output
+// ui.log.write('something just happened.');
+// ui.log.write('Almost over, standby!');
+
+// // During processing, update the bottom bar content to display a loader
+// // or output a progress bar, etc
+// ui.updateBottomBar('new bottom bar content');
 
 main()
 

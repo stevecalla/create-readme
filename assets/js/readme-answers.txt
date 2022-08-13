@@ -1,1 +1,1 @@
-{"title":"","description":"","instructions":"","usage":"","tests":"","contributing":"","userName":"","emailAddress":"","license":"ABCDEFG"}
+{"title":"","description":"","instructions":"","usage":"","tests":"","contributing":"","userName":"","emailAddress":"","license":"NONE. I'LL DECIDE LATER"}
