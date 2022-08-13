@@ -1,1 +1,0 @@
-{"title":"a","description":"b","instructions":"c","usage":"d","tests":"ef","contributing":"g","userName":"h","emailAddress":"i","license":"Choice A"}
