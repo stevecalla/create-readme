@@ -1,4 +1,4 @@
-# ADADFADF 
+# A 
 
 
 ## Index
@@ -6,14 +6,16 @@
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [Resources](#resources)
-6. [License](#license)
+4. [Features](#features)
+5. [Future Enhancements](#future-enhancements)
+6. [Contributing](#contributing)
+7. [Resources](#resources)
+8. [License](#license)
 
 ## Description
 
 ```
-dfafd 
+ 
 ```
 
 ## Installation
@@ -23,6 +25,33 @@ dfafd
 ## Usage
 
 
+
+## Features
+
+
+<!-- 
+1. TBD
+2. TBD
+3. TBD
+-->
+## Future Enhancements
+
+
+<!-- 
+1. TBD
+2. TBD
+3. TBD
+-->
+<!-- 
+## Website Preview - Static Screenshot
+
+<img alt="" src="" width="100%" height="425>
+
+
+## Website Preview - Video Preview
+
+<img alt="" src="" width="100%" height="425"/>
+-->
 
 ## Tests
 
@@ -36,7 +65,7 @@ dfafd
 ## Resources
 
 1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/)
-2. Contact Email: [Steve Calla - email](a@g.com)
+2. Contact Email: [Steve Calla - email](a@a.com)
 
 ## License 
 

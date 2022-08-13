@@ -3,7 +3,7 @@ const inquirer = require('inquirer'); // Step #1: prompt for readme information
 const { promptQuestion } = require('./readme-questions'); //Step #1a: list of questions
 const { writeAnswers } = require('./readme-writeAnswers'); // Step #2: save answers to readme-answers.txt
 const { getAnswers } = require('./readme-getAnswers'); // Step #3: read answers from readme-answers.txt; pass to handle answer function
-const template = require('./readme-template'); // Step #3a: readme-template used to build readme
+// const template = require('./readme-template'); // Step #3a: readme-template used to build readme
 
 async function main() {
   instructions();
@@ -11,11 +11,18 @@ async function main() {
   console.log('1 = ', promptAnswers);
   await writeAnswers(JSON.stringify(promptAnswers)); // Step #2
   await getAnswers(); // Step #3
+  //
+  nextSteps();
 }
 
 function instructions() {
   console.log('The following prompts will create a professional README for a project. Please answer each question. If a question is not answered a header for that section will appear in the README. After completion of all prompts, the README will be available in the current directory, and can be edited to include the final content.');
   console.log(`------------------\n`);
+}
+
+function nextSteps() {
+  console.log(`------------------\n`);
+  console.log(`A README template is now available in your current directly. This template includes placeholders for static images or video along with a variety of other placeholders to enhance your readme. Please edit as necessary to finalize the readme.`);
 }
 
 // const ui = new inquirer.ui.BottomBar();

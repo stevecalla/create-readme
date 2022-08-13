@@ -1,4 +1,4 @@
-const readmeTemplate = ( { title, description, instructions, usage, tests, contributing, userName, emailAddress, license, licenseBadge } ) => 
+const readmeTemplate = ( { title, description, instructions, usage, features, enhancements, tests, contributing, userName, emailAddress, license, licenseBadge } ) => 
 `# ${title.toUpperCase()} 
 ${licenseBadge}
 
@@ -7,9 +7,13 @@ ${licenseBadge}
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [Resources](#resources)
-6. [License](#license)
+<!-- 
+4. [Features](#features)
+5. [Future Enhancements](#future-enhancements)
+-->
+6. [Contributing](#contributing)
+7. [Resources](#resources)
+8. [License](#license)
 
 ## Description
 
@@ -24,6 +28,33 @@ ${instructions}
 ## Usage
 
 ${usage}
+
+## Features
+
+${features}
+<!-- 
+1. TBD
+2. TBD
+3. TBD
+-->
+## Future Enhancements
+
+${enhancements}
+<!-- 
+1. TBD
+2. TBD
+3. TBD
+-->
+<!-- 
+## Website Preview - Static Screenshot
+
+<img alt="" src="" width="100%" height="425>
+
+
+## Website Preview - Video Preview
+
+<img alt="" src="" width="100%" height="425"/>
+-->
 
 ## Tests
 
