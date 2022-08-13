@@ -3,55 +3,62 @@ const { licenseList } = require('./readme-badges');
 
 const promptQuestion = [
   {
-    prefix: '⠋⠋⠋1)',
+    prefix: '⠋🟡 1)',
     type: 'input',
     message: 'What is the title of your project?',
     name: 'title',
+    suffix: ' 🟡',
   },
   {
-    prefix: '⠋⠋⠋2)',
+    prefix: '⠋🟡 2)',
     type: 'input',
     message: 'What is the description of your project?',
     name: 'description',
+    suffix: ' 🟡',
   },
   {
-    prefix: '⠋⠋⠋3)',
+    prefix: '⠋🟡 3)',
     type: 'input',
     message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
     name: 'instructions',
+    suffix: ' 🟡',
   },
   {
-    prefix: '⠋⠋⠋4)',
+    prefix: '⠋🟡 4)',
     type: 'input',
     message: 'Provide instructions and examples for use. Include screenshots as needed. To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: ![alt text](assets/images/screenshot.png)',
     name: 'usage',
+    suffix: ' 🟡',
   },
   {
-    prefix: '⠋⠋⠋5)',
+    prefix: '⠋🟡 5)',
     type: 'input',
     message: 'Please provide examples of how to run tests?',
     name: 'tests',
+    suffix: ' 🟡',
   },
   {
-    prefix: '⠋⠋⠋6)',
+    prefix: '⠋🟡 6)',
     type: 'input',
     message: 'Please detail guidelines to contribute to your project?',
     name: 'contributing',
+    suffix: ' 🟡',
   },
   {
-    prefix: '⠋⠋⠋7)',
+    prefix: '⠋🟡 7)',
     type: 'input',
     message: 'Please enter your GitHub user name?',
     name: 'userName',
+    suffix: ' 🟡',
   },
   {
-    prefix: '⠋⠋⠋8)',
+    prefix: '⠋🟡 8)',
     type: 'input',
     message: 'Please enter your email address?',
     name: 'emailAddress',
   },
   {
-    prefix: '⠋⠋⠋9)',
+    prefix: '⠋🟡 9)',
     type: 'rawlist',
     message: 'Please select a license?',
     name: 'license',
@@ -60,6 +67,7 @@ const promptQuestion = [
     // choices: licenseBadges.map(element => element.license).sort().map((element, index) => `${index + 1} ${element}`)
     pageSize: 10,
     default: 19,
+    suffix: ' 🟡',
   },
 ];
 
