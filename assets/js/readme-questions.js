@@ -8,6 +8,15 @@ const promptQuestion = [
     message: 'What is the title of your project?',
     name: 'title',
     suffix: ' 🟡',
+    validate(answer) {
+      if(!answer) {
+          return "Please, provide the project title!"
+      }
+      return true
+    },
+    filter(answer) {
+      return answer.trim()
+    },
   },
   {
     prefix: '⠋🟡 2)',
@@ -15,6 +24,9 @@ const promptQuestion = [
     message: 'What is the description of your project?',
     name: 'description',
     suffix: ' 🟡',
+    filter(answer) {
+      return answer.trim()
+    },
   },
   {
     prefix: '⠋🟡 3)',
@@ -22,6 +34,9 @@ const promptQuestion = [
     message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
     name: 'instructions',
     suffix: ' 🟡',
+    filter(answer) {
+      return answer.trim()
+    },
   },
   {
     prefix: '⠋🟡 4)',
@@ -29,6 +44,9 @@ const promptQuestion = [
     message: 'Provide instructions and examples for use. Include screenshots as needed. To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: ![alt text](assets/images/screenshot.png)',
     name: 'usage',
     suffix: ' 🟡',
+    filter(answer) {
+      return answer.trim()
+    },
   },
   {
     prefix: '⠋🟡 5)',
@@ -36,6 +54,9 @@ const promptQuestion = [
     message: 'Please provide examples of how to run tests?',
     name: 'tests',
     suffix: ' 🟡',
+    filter(answer) {
+      return answer.trim()
+    },
   },
   {
     prefix: '⠋🟡 6)',
@@ -43,6 +64,9 @@ const promptQuestion = [
     message: 'Please detail guidelines to contribute to your project?',
     name: 'contributing',
     suffix: ' 🟡',
+    filter(answer) {
+      return answer.trim()
+    },
   },
   {
     prefix: '⠋🟡 7)',
@@ -50,12 +74,22 @@ const promptQuestion = [
     message: 'Please enter your GitHub user name?',
     name: 'userName',
     suffix: ' 🟡',
+    filter(answer) {
+      return answer.trim()
+    },
   },
   {
     prefix: '⠋🟡 8)',
     type: 'input',
     message: 'Please enter your email address?',
     name: 'emailAddress',
+    validate(answer) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+        if(!emailRegex.test(answer)) {
+            return "Please provide a valid email address!"
+        }
+        return true
+    }
   },
   {
     prefix: '⠋🟡 9)',

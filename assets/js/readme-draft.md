@@ -1,5 +1,5 @@
-#  
-[![License:  MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# ADADFADF 
+
 
 ## Index
 
@@ -13,7 +13,7 @@
 ## Description
 
 ```
- 
+dfafd 
 ```
 
 ## Installation
@@ -36,11 +36,11 @@
 ## Resources
 
 1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/)
-2. Contact Email: [Steve Calla - email]()
+2. Contact Email: [Steve Calla - email](a@g.com)
 
-## License [![License:  MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## License 
 
-This project is licensed under the terms of the <span style="color:red">The MIT License</span>. Please click on the license badge for more information.
+This project is licensed under the terms of the <span style="color:red">NONE. I'LL DECIDE LATER</span>. Please click on the license badge for more information.
 
 <!-- DELETE THIS SECTION FOR THE FINAL README. Per Github, you are under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we strongly encourage you to include an open source license. The Open Source Guide provides additional guidance on choosing the correct license for your project. SEE THE FOLLOWING LINKS FOR MORE INFORMATION:
 
