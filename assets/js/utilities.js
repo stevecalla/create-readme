@@ -1,5 +1,5 @@
 const fs = require("fs");
-const { licenseBadges } = require("./readme-badges");
+const { licenseBadges } = require("./badges");
 
 viewLicenseList();
 viewAnswersList();
@@ -14,7 +14,7 @@ viewLicenseList = () => {
 
 //VIEW THE MOST RECENT README-ANSWERS.TEXT OBJECT
 viewAnswersList = () => {
-  fs.readFile("readme-answers.txt", "utf8", function (err, jsonString) {
+  fs.readFile("answers.txt", "utf8", function (err, jsonString) {
     if (err) throw err;
     let answers = JSON.parse(jsonString);
     return console.log(answers);

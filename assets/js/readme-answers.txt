@@ -1,1 +1,0 @@
-{"title":"bbbb","description":"","instructions":"","usage":"","features":"","enhancements":"","staticImage":"./assets/images/create-readme.png","video":"./assets/images/create-readme.gif","tests":"","contributing":"Contributor Covenant Code of Conduct","userName":"","emailAddress":"b@b.c","license":"NONE. I'LL DECIDE LATER","licenseBadge":""}

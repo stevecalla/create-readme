@@ -1,4 +1,4 @@
-const { licenseList } = require("./readme-badges");
+const { licenseList } = require("./badges");
 
 const promptQuestion = [
   {

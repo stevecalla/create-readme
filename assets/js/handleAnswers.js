@@ -1,14 +1,13 @@
 const fs = require("fs");
 const template = require("./readme-template");
-const { licenseBadges } = require("./readme-badges");
-const { writeAnswers } = require("./readme-writeAnswers"); // Step #2: save answers to readme-answers.txt
+const { licenseBadges } = require("./badges");
+const { writeAnswers } = require("./writeAnswers"); // Step #2: save answers to readme-answers.txt
 
 handleAnswers = (answers) => {
   // GET THE LICENSE BADGE BASED ON USER SELECTION
   let renderBadge = licenseBadges.filter(
     (element) => element.license.toLowerCase() === answers.license.toLowerCase()
   );
-  // console.log('view badge info = ', renderBadge);
 
   // ADD THE LICENSE BADGE TO THE ANSWER OBJECT
   answers.licenseBadge = renderBadge[0].badge;
