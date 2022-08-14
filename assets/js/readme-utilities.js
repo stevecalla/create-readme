@@ -1,20 +1,22 @@
-const fs = require('fs');
-const { licenseBadges } = require('./readme-badges');
+const fs = require("fs");
+const { licenseBadges } = require("./readme-badges");
 
 viewLicenseList();
 viewAnswersList();
 
 //VIEW LIST OF LICENSES
 viewLicenseList = () => {
-  let sortedLicenseList = licenseBadges.map(element => element.license).sort();
+  let sortedLicenseList = licenseBadges
+    .map((element) => element.license)
+    .sort();
   return console.log(sortedLicenseList);
-}
+};
 
 //VIEW THE MOST RECENT README-ANSWERS.TEXT OBJECT
 viewAnswersList = () => {
-  fs.readFile('readme-answers.txt', 'utf8', function(err, jsonString){
+  fs.readFile("readme-answers.txt", "utf8", function (err, jsonString) {
     if (err) throw err;
-    let answers = JSON.parse(jsonString)
+    let answers = JSON.parse(jsonString);
     return console.log(answers);
   });
-}
+};

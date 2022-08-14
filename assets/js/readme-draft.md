@@ -15,12 +15,12 @@
 ## Description
 
 ```
- 
+a 
 ```
 
 ## Installation
 
-
+a
 
 ## Usage
 
@@ -45,12 +45,12 @@
 
 ## App Preview - Static Screenshot
 
-<img alt="" src="../images/example-image.png" width="100%" height="425"/>
+<img alt="" src="../images/create-readme.png" width="100%" height="425"/>
 
 
 ## App Preview - Video Preview
 
-<img alt="" src=../images/example-video.gif width="100%" height="425"/>
+<img alt="" src=../images/create-readme.gif width="100%" height="425"/>
 
 ## Tests
 
@@ -70,7 +70,7 @@ Contributor Covenant Code of Conduct
 ## Resources
 
 1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/)
-2. Contact Email: [Contact Steve](mailto:callasteven@gmail.com)
+2. Contact: [Email Steve](mailto:a@a.co)
 
 ## License 
 

@@ -1,5 +1,20 @@
-const readmeTemplate = ( { title, description, instructions, usage, features, enhancements, staticImage, video, tests, contributing, userName, emailAddress, license, licenseBadge } ) => 
-`# ${title.toUpperCase()} 
+const readmeTemplate = ({
+  title,
+  description,
+  instructions,
+  usage,
+  features,
+  enhancements,
+  staticImage,
+  video,
+  tests,
+  contributing,
+  userName,
+  emailAddress,
+  license,
+  licenseBadge,
+}) =>
+  `# ${title.toUpperCase()} 
 ${licenseBadge}
 
 ## Index
@@ -115,10 +130,8 @@ This project is licensed under the terms of the <span style="color:red">${licens
 1. GitHub Repo: <https://github.com/tbd/tbd>
 2. GitHub Hosted URL: <https://tbd.tbd.com/tbd>
 -->
-`
-
+`;
 
 module.exports = {
   readmeTemplate,
 };
-
