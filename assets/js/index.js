@@ -1,17 +1,17 @@
 /*
 Step #1: prompt for readme information
 Step #1a: list of questions
-Step #2: save answers to readme-answers.txt
-Step #3: read answers from readme-answers.txt; pass to handle answer
+Step #2: save answers to answers.txt
+Step #3: read answers from answers.txt; pass to handle answer
 Step #4 getAnswers() called handleAnswers()
 Step #5 handleAnswers() determines which license badge to add to the answwers object & gerates the readme file
 */
 
 const fs = require("fs");
 const inquirer = require("inquirer"); //Step #1
-const { promptQuestion } = require("./readme-questions"); //Step #1a
-const { writeAnswers } = require("./readme-writeAnswers"); //Step #2
-const { getAnswers } = require("./readme-getAnswers"); // Step #3
+const { promptQuestion } = require("./questions"); //Step #1a
+const { writeAnswers } = require("./writeAnswers"); //Step #2
+const { getAnswers } = require("./getAnswers"); // Step #3
 
 let main = async () => {
   instructions(); //prints initial instructions to the console
