@@ -6,6 +6,8 @@ let getAnswers = () => {
     if (err) throw err;
     let answers = JSON.parse(jsonString)
     handleAnswers(answers);
+    // return console.log(answers);
+    return answers;
   });
 }
 

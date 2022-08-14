@@ -1,30 +1,20 @@
-// const fs = require('fs');
-// const template = require('./readme-template');
-// const { licenseBadges } = require('./readme-badges');
+const fs = require('fs');
+const { licenseBadges } = require('./readme-badges');
 
-// function handleAnswers(answers) {
+viewLicenseList();
+viewAnswersList();
 
-//   // licenseBadges.forEach(element => console.log(element))
+//VIEW LIST OF LICENSES
+viewLicenseList = () => {
+  let sortedLicenseList = licenseBadges.map(element => element.license).sort();
+  return console.log(sortedLicenseList);
+}
 
-//   // let licenseList = licenseBadges.map(element => element.license);
-//   // console.log(licenseList);
-
-//   // let licenseList = licenseBadges.map(element => element.license).sort();
-//   // console.log(licenseList)
-
-//   let renderBadge = licenseBadges.filter(element => element.license.toLowerCase() === answers.license.toLowerCase())
-//   console.log('test ', renderBadge)
-
-//   answers.licenseBadge = renderBadge[0].badge;
-//   // answers.licenseBadge = renderBadge;
-//   console.log('4 ', answers);
-  
-//   fs.writeFile('readme-draft.md', template.readmeTemplate(answers), function (err) {
-//     if (err) throw err;
-//     // console.log('It\'s saved!');
-//   })
-// }
-
-// module.exports = {
-//   handleAnswers,
-// }
+//VIEW THE MOST RECENT README-ANSWERS.TEXT OBJECT
+viewAnswersList = () => {
+  fs.readFile('readme-answers.txt', 'utf8', function(err, jsonString){
+    if (err) throw err;
+    let answers = JSON.parse(jsonString)
+    return console.log(answers);
+  });
+}

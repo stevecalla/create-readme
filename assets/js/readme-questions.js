@@ -1,4 +1,3 @@
-// const { NONAME } = require('dns');
 const { licenseList } = require('./readme-badges');
 
 const promptQuestion = [
@@ -31,7 +30,7 @@ const promptQuestion = [
   {
     prefix: '⠋🟡 3)',
     type: 'input',
-    message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+    message: 'What are the steps required to install your project?',
     name: 'instructions',
     suffix: ' 🟡',
     filter(answer) {
@@ -71,9 +70,9 @@ const promptQuestion = [
   {
     prefix: '⠋🟡 7)',
     type: 'input',
-    message: 'Please add the path/URL for a static image of the project (i.e. ./assets/images/project-name.png)?',
+    message: 'Please add the path/URL for a static image of the project (i.e. ../images/example-image.png)?',
     name: 'staticImage',
-    default: './assets/images/example-image.png',
+    default: '../images/example-image.png',
     suffix: ' 🟡',
     filter(answer) {
       return answer.trim()
@@ -82,9 +81,9 @@ const promptQuestion = [
   {
     prefix: '⠋🟡 8)',
     type: 'input',
-    message: 'Please add the path/URL for a video of the project (i.e. ./assets/images/powder-bound.gif)?',
+    message: 'Please add the path/URL for a video of the project (i.e. ../images/example-video.gif)?',
     name: 'video',
-    default: './assets/images/example-video.gif',
+    default: '../images/example-video.gif',
     suffix: ' 🟡',
     filter(answer) {
       return answer.trim()
@@ -105,7 +104,7 @@ const promptQuestion = [
     type: 'input',
     message: 'Please provide guidelines to contribute to your project?',
     name: 'contributing',
-    default: './assets/images/example-video.gif',
+    default: 'Contributor Covenant Code of Conduct',
     suffix: ' 🟡',
     filter(answer) {
       return answer.trim()
