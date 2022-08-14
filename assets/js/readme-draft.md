@@ -20,7 +20,7 @@ a
 
 ## Installation
 
-
+a
 
 ## Usage
 
@@ -70,7 +70,7 @@ Contributor Covenant Code of Conduct
 ## Resources
 
 1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/)
-2. Contact: [Email Steve](mailto:a@a.cc)
+2. Contact: [Email Steve](mailto:a@a.co)
 
 ## License 
 
