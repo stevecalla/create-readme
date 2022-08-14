@@ -1,1 +1,1 @@
-{"title":"","description":"","instructions":"","usage":"","tests":"","contributing":"","userName":"","emailAddress":"","license":"Mozilla Public License 2.0"}
+{"title":"a","description":"","instructions":"","usage":"","features":"","enhancements":"","staticImage":"../images/example-image.png","video":"../images/example-video.gif","tests":"","contributing":"Contributor Covenant Code of Conduct","userName":"","emailAddress":"callasteven@gmail.com","license":"NONE. I'LL DECIDE LATER","licenseBadge":""}

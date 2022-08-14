@@ -1,22 +1,23 @@
 const fs = require('fs');
 const template = require('./readme-template');
 const { licenseBadges } = require('./readme-badges');
+const { writeAnswers } = require('./readme-writeAnswers'); // Step #2: save answers to readme-answers.txt
 
-function handleAnswers(answers) {
+handleAnswers = (answers) => {
 
-  // licenseBadges.forEach(element => console.log(element))
-
-  // let licenseList = licenseBadges.map(element => element.license);
-  // console.log(licenseList);
-
+  // GET THE LICENSE BADGE BASED ON USER SELECTION
   let renderBadge = licenseBadges.filter(element => element.license.toLowerCase() === answers.license.toLowerCase())
-  console.log('test ', renderBadge)
+  // console.log('view badge info = ', renderBadge);
 
+  // ADD THE LICENSE BADGE TO THE ANSWER OBJECT
   answers.licenseBadge = renderBadge[0].badge;
-  // answers.licenseBadge = renderBadge;
-  console.log('4 ', answers);
+  // console.log('4 ', answers); //if necessary uncomment to see the final anaswer object
+
+  // WRITE THE NEW ANSWERS OBJECT TO THE SOURCE OF TRUTH README-ANSWERS.TXT FILE
+  writeAnswers(JSON.stringify(answers));
   
-  fs.writeFile('readme-draft.md', template.readmeTemplate(answers), function (err) {
+  // CREATE THE README
+  fs.writeFile('README-DRAFT.md', template.readmeTemplate(answers), function (err) {
     if (err) throw err;
     // console.log('It\'s saved!');
   })
@@ -25,3 +26,7 @@ function handleAnswers(answers) {
 module.exports = {
   handleAnswers,
 }
+
+/*
+See or run readme-utilities (node readme-utilities.js) to view a list of the licenses from the readme-badges.js object
+*/
