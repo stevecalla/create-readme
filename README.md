@@ -45,12 +45,12 @@ This app can be enhanced by adding more detail instructions, functionality to up
 
 ## App Preview - Static Screenshot
 
-<img alt="" src="../images/create-readme.png" width="100%" height="425"/>
+<img alt="" src="./assets/images/create-readme.png" width="100%" height="425"/>
 
 
 ## App Preview - Video Preview
 
-<img alt="" src=../images/create-readme.gif width="100%" height="425"/>
+<img alt="" src=./assets/images/create-readme.gif width="100%" height="425"/>
 
 ## Tests
 

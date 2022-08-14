@@ -66,7 +66,7 @@ ${enhancements}
 
 ## App Preview - Video Preview
 
-<img alt="" src=${video} width="100%" height="425"/>
+<img alt="" src="${video}" width="100%" height="425"/>
 
 ## Tests
 
@@ -75,6 +75,7 @@ ${tests}
 ## Contributing
 
 ${contributing}
+
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)
 
 <!-- DELETE THIS SECTION FOR THE FINAL README. For more information on example contribution guidelines please see the links below.

@@ -73,7 +73,7 @@ const promptQuestion = [
     message:
       "Please add the path/URL for a static image of the project (i.e. ../images/example-image.png)?",
     name: "staticImage",
-    default: "../images/create-readme.png",
+    default: "./assets/images/create-readme.png",
     suffix: " 🟡",
     filter(answer) {
       return answer.trim();
@@ -85,7 +85,7 @@ const promptQuestion = [
     message:
       "Please add the path/URL for a video of the project (i.e. ../images/example-video.gif)?",
     name: "video",
-    default: "../images/create-readme.gif",
+    default: "./assets/images/create-readme.gif",
     suffix: " 🟡",
     filter(answer) {
       return answer.trim();
