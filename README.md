@@ -50,15 +50,16 @@ This app can be enhanced by adding more detail instructions, functionality to up
 
 ## App Preview - Video Preview
 
-<img alt="" src=./assets/images/create-readme.gif width="100%" height="425"/>
+<img alt="" src="./assets/images/create-readme.gif" width="100%" height="425"/>
 
 ## Tests
 
-No tests are setup at this time.
+No tests setup at this time.
 
 ## Contributing
 
 Contributor Covenant Code of Conduct
+
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)
 
 <!-- DELETE THIS SECTION FOR THE FINAL README. For more information on example contribution guidelines please see the links below.
