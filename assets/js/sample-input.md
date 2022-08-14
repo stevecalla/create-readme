@@ -24,7 +24,6 @@ This app can be enhanced by adding more detail instructions, functionality to up
 # Video url
 ../images/create-readme.gif
 
-
 ## Test 
 No tests are setup at this time.
 
