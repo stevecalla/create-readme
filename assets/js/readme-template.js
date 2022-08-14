@@ -71,7 +71,7 @@ ${contributing}
 ## Resources
 
 1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/${userName})
-2. Contact Email: [Steve Calla - email](${emailAddress})
+2. Contact: [Email Steve](mailto:${emailAddress})
 
 ## License 
 
