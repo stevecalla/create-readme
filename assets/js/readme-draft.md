@@ -1,5 +1,5 @@
-# A 
-
+# CREATE README 
+[![License:  MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Index
 
@@ -15,20 +15,20 @@
 ## Description
 
 ```
-a 
+The app will create a professional README for a project. A user answers each question. If a question is not answered a header for that section will appear in the README. After completion of all prompts, the README will be available in the current directory and should be edited to include the final content. 
 ```
 
 ## Installation
 
-a
+(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install dependencies), (4) Run "node index.js" (from the /assets/js directory).
 
 ## Usage
 
-
+This app creates a readme file based on user input.
 
 ## Features
 
-
+This app includes features such as validation for required information and email, default answers for image, video and contribution, license badge append, instructions at the start and end of the program, modified question prefix and suffix, modular breakdown of the code (into section such as questions, answers, write to file et al), use of inquirer filter to trim and additional sections in the readme template to allow the user to customize the readme.
 <!-- 
 1. TBD
 2. TBD
@@ -36,7 +36,7 @@ a
 -->
 ## Future Enhancements
 
-
+This app can be enhanced by adding more detail instructions, functionality to upload images and video files, allow users to select sections of the readme then build the readme dynamically using the fs append feature and more.
 <!-- 
 1. TBD
 2. TBD
@@ -54,7 +54,7 @@ a
 
 ## Tests
 
-
+No tests are setup at this time.
 
 ## Contributing
 
@@ -69,13 +69,13 @@ Contributor Covenant Code of Conduct
 
 ## Resources
 
-1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/)
-2. Contact: [Email Steve](mailto:a@a.co)
+1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/stevecalla)
+2. Contact: [Email Steve](mailto:callasteven@gmail.com)
 
 ## License 
 
-
-This project is licensed under the terms of the <span style="color:red">NONE. I'LL DECIDE LATER</span>. Please click on the license badge for more information.
+[![License:  MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the terms of the <span style="color:red">The MIT License</span>. Please click on the license badge for more information.
 
 <!-- DELETE THIS SECTION FOR THE FINAL README. Per Github, you are under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we strongly encourage you to include an open source license. The Open Source Guide provides additional guidance on choosing the correct license for your project. SEE THE FOLLOWING LINKS FOR MORE INFORMATION:
 
