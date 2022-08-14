@@ -19,10 +19,10 @@ This app includes features such as validation for required information and email
 This app can be enhanced by adding more detail instructions, functionality to upload images and video files, allow users to select sections of the readme then build the readme dynamically using the fs append feature and more.
 
 # Image url
-../images/create-readme.png
+./assets/images/create-readme.png
 
 # Video url
-../images/create-readme.gif
+./assets/images/create-readme.gif
 
 ## Test 
 No tests are setup at this time.

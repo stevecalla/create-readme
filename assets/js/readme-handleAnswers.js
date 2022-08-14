@@ -19,7 +19,7 @@ handleAnswers = (answers) => {
 
   // CREATE THE README
   fs.writeFile(
-    '../../README-DRAFT.md',
+    '../../README.md',
     template.readmeTemplate(answers),
     function (err) {
       if (err) throw err;
