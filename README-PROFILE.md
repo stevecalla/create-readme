@@ -1,4 +1,4 @@
-# CREATE README 
+# TEAM PROFILE GENERATOR 
 [![License:  MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Index
@@ -15,20 +15,20 @@
 ## Description
 
 ```
-The app will create a professional README for a project. A user answers each question. If a question is not answered a header for that section will appear in the README. After completion of all prompts, the README will be available in the current directory and should be edited to include the final content. 
+The app is a command-line interface to generate a webpage listing the members of a software engineering team. The team can use the page to gain quick access to information about team's mission and members including email address and GitHub profile. The team manager proceeds through a series of questions to describe each member including name, role/title, employee id along with role specific information such as office number for the manager, GithHub user name for the engineer(s) and current school for intern(s). The app will use this information to create a webpage. 
 ```
 
 ## Installation
 
-(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install dependencies), (4) Run "node index.js" (from the /assets/js directory).
+(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install dependencies), (4) Run "node index.js" (from the root directory). To run Jest tests, run "npm test". Jest is setup to use a "--watcher" and provide "--coverage" statistics.
 
 ## Usage
 
-This app creates a readme file based on user input.
+This app creates a website which provides detailed information about a software engineering team from the command line.
 
 ## Features
 
-This app includes features such as validation for required information and email, default answers for image, video and contribution, license badge append, instructions at the start and end of the program, modified question prefix and suffix, modular breakdown of the code (into section such as questions, answers, write to file et al), use of inquirer filter to trim and additional sections in the readme template to allow the user to customize the readme.
+This app includes features such as (a) a series of command line prompts to gather team member information, (b) validation for required information and email, default answers for image, modular breakdown of the code, use of inquirer to provide the questions including use of validation and filters (to format the answers). There code includes a robust set of Jest tests to make the code more maintainable.
 <!-- 
 1. TBD
 2. TBD
@@ -36,7 +36,7 @@ This app includes features such as validation for required information and email
 -->
 ## Future Enhancements
 
-This app can be enhanced by adding more detail instructions, functionality to upload images and video files, allow users to select sections of the readme then build the readme dynamically using the fs append feature and more.
+This app can be enhanced by (a) creating the ability to add multiple teams with functionality to switch between teams on the webpage, (b) ability to add a team name and mission, (c) provide more or custom detail about each team member such as the ability to upload a photo, add pronouns, add fun facts, add a phone number and more, (d) the ability to add or delete team members (which can now be done but it's a complete re-build rather than amending the current team), (e) the abiility to modify team member information on the website or from the command line, (f) the ability to customize the page with team colors, icons or other team specific/brand details and (f) more.
 <!-- 
 1. TBD
 2. TBD
@@ -45,16 +45,16 @@ This app can be enhanced by adding more detail instructions, functionality to up
 
 ## App Preview - Static Screenshot
 
-<img alt="" src="./assets/images/create-readme.png" width="100%" height="425"/>
+<img alt="" src="./dist/images/webpage-static-image.jpeg" width="100%" height="425"/>
 
 
 ## App Preview - Video Preview
 
-<img alt="" src="./assets/images/create-readme.gif" width="100%" height="425"/>
+<img alt="" src="./dist/images/app-video-demo.gif" width="100%" height="425"/>
 
 ## Tests
 
-No tests are setup at this time.
+To run Jest tests, run "npm test". Jest is setup to use a "--watcher" and provide "--coverage" statistics.
 
 ## Contributing
 

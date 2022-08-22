@@ -6,6 +6,7 @@ const promptQuestion = [
     type: "input",
     message: "What is the title of your project?",
     name: "title",
+    default: "Create Readme",
     suffix: " 🟡",
     validate(answer) {
       if (!answer) {
@@ -22,6 +23,7 @@ const promptQuestion = [
     type: "input",
     message: "What is the description of your project?",
     name: "description",
+    default: "The app will create a professional README for a project. A user answers each question. If a question is not answered a header for that section will appear in the README. After completion of all prompts, the README will be available in the current directory and should be edited to include the final content.",
     suffix: " 🟡",
     filter(answer) {
       return answer.trim();
@@ -32,6 +34,7 @@ const promptQuestion = [
     type: "input",
     message: "What are the steps required to install your project?",
     name: "instructions",
+    default: "(1) Fork the repo, (2) Clone the forked repo locally, (3) Run \"npm install\" (to install dependencies), (4) Run \"node index.js\" (from the /assets/js directory).",
     suffix: " 🟡",
     filter(answer) {
       return answer.trim();
@@ -42,6 +45,7 @@ const promptQuestion = [
     type: "input",
     message: "Provide instructions and examples for use.",
     name: "usage",
+    default: "This app creates a readme file based on user input.",
     suffix: " 🟡",
     filter(answer) {
       return answer.trim();
@@ -52,6 +56,7 @@ const promptQuestion = [
     type: "input",
     message: "Please detail the most important features?",
     name: "features",
+    default: "This app includes features such as validation for required information and email, default answers for image, video and contribution, license badge append, instructions at the start and end of the program, modified question prefix and suffix, modular breakdown of the code (into section such as questions, answers, write to file et al), use of inquirer filter to trim and additional sections in the readme template to allow the user to customize the readme.",
     suffix: " 🟡",
     filter(answer) {
       return answer.trim();
@@ -62,6 +67,7 @@ const promptQuestion = [
     type: "input",
     message: "Please detail plans for future enhancements?",
     name: "enhancements",
+    default: "This app can be enhanced by adding more detail instructions, functionality to upload images and video files, allow users to select sections of the readme then build the readme dynamically using the fs append feature and more.",
     suffix: " 🟡",
     filter(answer) {
       return answer.trim();
@@ -96,6 +102,7 @@ const promptQuestion = [
     type: "input",
     message: "Please provide examples of how to run tests?",
     name: "tests",
+    default: "No tests are setup at this time.",
     suffix: " 🟡",
     filter(answer) {
       return answer.trim();
@@ -117,6 +124,7 @@ const promptQuestion = [
     type: "input",
     message: "Please enter your GitHub user name?",
     name: "userName",
+    default: "stevecalla",
     suffix: " 🟡",
     filter(answer) {
       return answer.trim();
@@ -127,6 +135,7 @@ const promptQuestion = [
     type: "input",
     message: "Please enter your email address?",
     name: "emailAddress",
+    default: "callasteven@gmail.com",
     validate(answer) {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(answer)) {
