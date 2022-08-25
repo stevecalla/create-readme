@@ -13,12 +13,12 @@ handleAnswers = (answers) => {
   answers.licenseBadge = renderBadge[0].badge;
   // console.log('4 ', answers); //if necessary uncomment to see the final anaswer object
 
-  // WRITE THE NEW ANSWERS OBJECT TO THE SOURCE OF TRUTH README-ANSWERS.TXT FILE
+  // WRITE THE NEW ANSWERS OBJECT TO THE SOURCE OF TRUTH ANSWERS.TXT FILE
   writeAnswers(JSON.stringify(answers));
 
   // CREATE THE README
   fs.writeFile(
-    './README.md',
+    './README-DRAFT.md',
     template.readmeTemplate(answers),
     function (err) {
       if (err) throw err;

@@ -130,8 +130,35 @@ const promptQuestion = [
       return answer.trim();
     },
   },
+
   {
     prefix: "⠋🟡 12)",
+    type: "input",
+    message:
+      "Please enter the path/url for the GitHub repo?",
+    name: "gitHubRepo",
+    default: "https://github.com/stevecalla/create-readme",
+    suffix: " 🟡",
+    filter(answer) {
+      return answer.trim();
+    },
+  },
+
+  {
+    prefix: "⠋🟡 13)",
+    type: "input",
+    message:
+    "Please enter the path/url for the deployed website?",
+    name: "deployedURL",
+    default: "https://stevecalla.github.io/team-profile-generator/",
+    suffix: " 🟡",
+    filter(answer) {
+      return answer.trim();
+    },
+  },
+
+  {
+    prefix: "⠋🟡 14)",
     type: "input",
     message: "Please enter your email address?",
     name: "emailAddress",
@@ -145,7 +172,7 @@ const promptQuestion = [
     },
   },
   {
-    prefix: "⠋🟡 13)",
+    prefix: "⠋🟡 15)",
     type: "rawlist",
     message: "Please select a license?",
     name: "license",
