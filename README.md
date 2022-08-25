@@ -20,7 +20,7 @@ The app will create a professional README for a project. A user answers each que
 
 ## Installation
 
-(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install dependencies), (4) Run "node index.js" (from the /assets/js directory).
+(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install dependencies), (4) Run "node index.js" (from the root directory).
 
 ## Usage
 
@@ -71,7 +71,9 @@ Contributor Covenant Code of Conduct
 ## Resources
 
 1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/stevecalla)
-2. Contact: [Email Steve](mailto:callasteven@gmail.com)
+2. GitHub Repo: <https://github.com/stevecalla/create-readme>
+3. GitHub Hosted URL: None at this time.
+4. Contact: [Email Steve](mailto:callasteven@gmail.com)
 
 ## License 
 

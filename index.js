@@ -9,9 +9,9 @@ Step #5 handleAnswers() determines which license badge to add to the answwers ob
 
 const fs = require("fs");
 const inquirer = require("inquirer"); //Step #1
-const { promptQuestion } = require("./questions"); //Step #1a
-const { writeAnswers } = require("./writeAnswers"); //Step #2
-const { getAnswers } = require("./getAnswers"); // Step #3
+const { promptQuestion } = require("./assets/js/questions"); //Step #1a
+const { writeAnswers } = require("./assets/js/writeAnswers"); //Step #2
+const { getAnswers } = require("./assets/js/getAnswers"); // Step #3
 
 let main = async () => {
   instructions(); //prints initial instructions to the console
