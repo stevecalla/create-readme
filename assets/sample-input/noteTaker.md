@@ -1,32 +1,35 @@
 ### Input v1
 
 ## Title
-Team Profile Generator
+Note Taker
 
 ## Description
-The app is a command-line interface to generate a webpage listing the members of a software engineering team. The team can use the page to gain quick access to information about team's mission and members including email address and GitHub profile. The team manager proceeds through a series of questions to describe each member including name, role/title, employee id along with role specific information such as office number for the manager, GithHub user name for the engineer(s) and current school for intern(s). The app will use this information to create a webpage.
+This app allows the user to track tasks by providng the abilit write, save and delete notes. When the user opens Note Taker, a landing page is presented with a link to the notes page. After clicking on the link to the notes page the user is presented with a list of existing notes in the left hand column along a note taking feature in the right hand column. 
 
+The user can use the note taking feature to enter the note title and text then click the save button to populate the note in the left hand column with other notes. If the user would like to enter another note, the plus symbol clears the note taking feature. If the user would like delete a note they can click on the delete (trash) icon. 
 
 ## Installation
-(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install dependencies), (4) Run "node index.js" (from the root directory). To run Jest tests, run "npm test". Jest is setup to use a "--watcher" and provide "--coverage" statistics.
+(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install the NPM Express dependency), (4) Run "node server.js" to start the server (from the root directory), (5) To open the home page go to http://localhost:3001/. 
+
+If you'd like to use NPM nodemon as/if you make changes to the code, please install nodemon as a development dependency using "npm install --save-dev nodemon" (see https://www.npmjs.com/package//nodemon).
 
 ## Use
-This app creates a website which provides detailed information about a software engineering team from the command line.
+This app creates a website which allows a user to track tasks by enter notes for each task.
 
 ## Features
-This app includes features such as (a) a series of command line prompts to gather team member information, (b) validation for required information and email, default answers for image, modular breakdown of the code, use of inquirer to provide the questions including use of validation and filters (to format the answers). There code includes a robust set of Jest tests to make the code more maintainable.
+This app includes features such as (a) the ability to enter a note title and text, (b) the ability to save each note, (c) the ability to delete each note.
 
 ## Enhancements
-This app can be enhanced by (a) creating the ability to add multiple teams with functionality to switch between teams on the webpage, (b) ability to add a team name and mission, (c) provide more or custom detail about each team member such as the ability to upload a photo, add pronouns, add fun facts, add a phone number and more, (d) the ability to add or delete team members (which can now be done but it's a complete re-build rather than amending the current team), (e) the abiility to modify team member information on the website or from the command line, (f) the ability to customize the page with team colors, icons or other team specific/brand details and (f) more.
+This app can be enhanced by (a) allowing the user to modify notes, (b) adding additional note fields such as date entered (as a default, due date, a status for each note (such as todo, in progress, complete) as an icon or drop down and more, (c) the ability to sort notes based on various criteria such as date due or status or using drag and drop functionality, (d) the ability to archive notes or group notes based on common tasks, and (e) more.
 
 # Image url
-./dist/images/webpage-static-image.jpeg
+./assets/images/webpage-static-image.jpeg
 
 # Video url
-./dist/images/app-video-demo.gif
+./assets/images/app-video-demo.gif
 
 ## Test 
-To run Jest tests, run "npm test". Jest is setup to use a "--watcher" and provide "--coverage" statistics.
+There are no tests at this time.
 
 ## Contribution to Project
 Use default
