@@ -1,24 +1,5 @@
-const readmeTemplate = ({
-  title,
-  description,
-  instructions,
-  usage,
-  features,
-  enhancements,
-  staticImage,
-  videoLink,
-  videoGif,
-  tests,
-  contributing,
-  userName,
-  gitHubRepo,
-  deployedURL,
-  emailAddress,
-  license,
-  licenseBadge,
-}) =>
-  `# ${title.toUpperCase()} 
-${licenseBadge}
+# CREATE README 
+
 
 ## Index
 
@@ -33,21 +14,21 @@ ${licenseBadge}
 
 ## Description
 
-\`\`\`
-${description} 
-\`\`\`
+```
+The app will create a professional README for a project. A user answers each question. If a question is not answered a header for that section will appear in the README. After completion of all prompts, the README will be available in the current directory and should be edited to include the final content. 
+```
 
 ## Installation
 
-${instructions}
+(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install dependencies), (4) Run "node index.js" (from the /assets/js directory).
 
 ## Usage
 
-${usage}
+This app creates a readme file based on user input.
 
 ## Features
 
-${features}
+This app includes features such as validation for required information and email, default answers for image, video and contribution, license badge append, instructions at the start and end of the program, modified question prefix and suffix, modular breakdown of the code (into section such as questions, answers, write to file et al), use of inquirer filter to trim and additional sections in the readme template to allow the user to customize the readme.
 <!-- 
 1. TBD
 2. TBD
@@ -55,7 +36,7 @@ ${features}
 -->
 ## Future Enhancements
 
-${enhancements}
+This app can be enhanced by adding more detail instructions, functionality to upload images and video files, allow users to select sections of the readme then build the readme dynamically using the fs append feature and more.
 <!-- 
 1. TBD
 2. TBD
@@ -64,21 +45,21 @@ ${enhancements}
 
 ## App Preview - Static Screenshot
 
-<img alt="" src="${staticImage}" width="100%" height="425"/>
+<img alt="" src="./assets/images/create-readme.png" width="100%" height="425"/>
 
 
 ## App Preview - Video Preview
-[Link to Video](${videoLink})
+[Link to Video](https://www.youtube.com/watch?v=_hr9SKZC5Rc&feature=youtu.be)
 
-<img alt="" src="${videoGif}" width="100%" height="425"/>
+<img alt="" src="./assets/images/create-readme.gif" width="100%" height="425"/>
 
 ## Tests
 
-${tests}
+No tests are setup at this time.
 
 ## Contributing
 
-${contributing}
+Contributor Covenant Code of Conduct
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)
 
@@ -90,15 +71,15 @@ ${contributing}
 
 ## Resources
 
-1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/${userName})
-2. GitHub Repo: <${gitHubRepo}>
-3. GitHub Hosted URL: <${deployedURL}>
-4. Contact: [Email Steve](mailto:${emailAddress})
+1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/stevecalla)
+2. GitHub Repo: <https://github.com/stevecalla/create-readme>
+3. GitHub Hosted URL: <https://stevecalla.github.io/team-profile-generator/>
+4. Contact: [Email Steve](mailto:callasteven@gmail.com)
 
 ## License 
 
-${licenseBadge}
-This project is licensed under the terms of the <span style="color:red">${license}</span>. Please click on the license badge for more information.
+
+This project is licensed under the terms of the <span style="color:red">NONE. I'LL DECIDE LATER</span>. Please click on the license badge for more information.
 
 <!-- DELETE THIS SECTION FOR THE FINAL README. Per Github, you are under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we strongly encourage you to include an open source license. The Open Source Guide provides additional guidance on choosing the correct license for your project. SEE THE FOLLOWING LINKS FOR MORE INFORMATION:
 
@@ -137,8 +118,3 @@ This project is licensed under the terms of the <span style="color:red">${licens
 1. GitHub Repo: <https://github.com/tbd/tbd>
 2. GitHub Hosted URL: <https://tbd.tbd.com/tbd>
 -->
-`;
-
-module.exports = {
-  readmeTemplate,
-};

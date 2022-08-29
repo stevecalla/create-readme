@@ -89,9 +89,9 @@ const promptQuestion = [
     prefix: "⠋🟡 8)",
     type: "input",
     message:
-      "Please add the path/URL for a video of the project (i.e. ../images/example-video.gif)?",
-    name: "video",
-    default: "./assets/images/create-readme.gif",
+      "Please add the video link for the project (i.e. https://www.youtube.com/watch?v=_hr9SKZC5Rc&feature=youtu.be)?",
+    name: "videoLink",
+    default: "https://www.youtube.com/watch?v=_hr9SKZC5Rc&feature=youtu.be",
     suffix: " 🟡",
     filter(answer) {
       return answer.trim();
@@ -99,6 +99,18 @@ const promptQuestion = [
   },
   {
     prefix: "⠋🟡 9)",
+    type: "input",
+    message:
+      "Please add the path/URL for a video GIF of the project (i.e. ../images/example-video.gif)?",
+    name: "videoGif",
+    default: "./assets/images/create-readme.gif",
+    suffix: " 🟡",
+    filter(answer) {
+      return answer.trim();
+    },
+  },
+  {
+    prefix: "⠋🟡 10)",
     type: "input",
     message: "Please provide examples of how to run tests?",
     name: "tests",
@@ -109,7 +121,7 @@ const promptQuestion = [
     },
   },
   {
-    prefix: "⠋🟡 10)",
+    prefix: "⠋🟡 11)",
     type: "input",
     message: "Please provide guidelines to contribute to your project?",
     name: "contributing",
@@ -120,7 +132,7 @@ const promptQuestion = [
     },
   },
   {
-    prefix: "⠋🟡 11)",
+    prefix: "⠋🟡 12)",
     type: "input",
     message: "Please enter your GitHub user name?",
     name: "userName",
@@ -132,7 +144,7 @@ const promptQuestion = [
   },
 
   {
-    prefix: "⠋🟡 12)",
+    prefix: "⠋🟡 13)",
     type: "input",
     message:
       "Please enter the path/url for the GitHub repo?",
@@ -145,7 +157,7 @@ const promptQuestion = [
   },
 
   {
-    prefix: "⠋🟡 13)",
+    prefix: "⠋🟡 14)",
     type: "input",
     message:
     "Please enter the path/url for the deployed website?",
@@ -158,7 +170,7 @@ const promptQuestion = [
   },
 
   {
-    prefix: "⠋🟡 14)",
+    prefix: "⠋🟡 15)",
     type: "input",
     message: "Please enter your email address?",
     name: "emailAddress",
@@ -172,7 +184,7 @@ const promptQuestion = [
     },
   },
   {
-    prefix: "⠋🟡 15)",
+    prefix: "⠋🟡 16)",
     type: "rawlist",
     message: "Please select a license?",
     name: "license",
