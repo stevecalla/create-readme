@@ -4,14 +4,10 @@
 Note Taker
 
 ## Description
-This app allows the user to track tasks by providng the abilit write, save and delete notes. When the user opens Note Taker, a landing page is presented with a link to the notes page. After clicking on the link to the notes page the user is presented with a list of existing notes in the left hand column along a note taking feature in the right hand column. 
+This app allows the user to track tasks by providng the ability to write, save and delete notes. When the user opens Note Taker, a landing page is presented with a link to the notes page. After clicking on the link to the notes page the user is presented with a list of existing notes in the left hand column along a note taking feature in the right hand column. The user can use the note taking feature to enter the note title and text then click the save button to populate the note in the left hand column with other notes. If the user would like to enter another note, the plus symbol clears the note taking feature. If the user would like delete a note they can click on the delete (trash) icon. 
 
-The user can use the note taking feature to enter the note title and text then click the save button to populate the note in the left hand column with other notes. If the user would like to enter another note, the plus symbol clears the note taking feature. If the user would like delete a note they can click on the delete (trash) icon. 
-
-## Installation
-(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install the NPM Express dependency), (4) Run "node server.js" to start the server (from the root directory), (5) To open the home page go to http://localhost:3001/. 
-
-If you'd like to use NPM nodemon as/if you make changes to the code, please install nodemon as a development dependency using "npm install --save-dev nodemon" (see https://www.npmjs.com/package//nodemon).
+## Installationclea
+(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install the NPM Express dependency), (4) Run "node server.js" to start the server (from the root directory), (5) To open the home page go to http://localhost:3001/. If you'd like to use NPM nodemon as/if you make changes to the code, please install nodemon as a development dependency using "npm install --save-dev nodemon" (see https://www.npmjs.com/package//nodemon).
 
 ## Use
 This app creates a website which allows a user to track tasks by enter notes for each task.
@@ -25,6 +21,9 @@ This app can be enhanced by (a) allowing the user to modify notes, (b) adding ad
 # Image url
 ./assets/images/webpage-static-image.jpeg
 
+# Video LINK
+https://www.youtube.com/watch?v=_hr9SKZC5Rc&feature=youtu.be
+
 # Video url
 ./assets/images/app-video-demo.gif
 
@@ -37,7 +36,13 @@ Use default
 ## Github User Name
 stevecalla
 
-## Email Address 
+## Github Repo LINK
+https://github.com/stevecalla/note-taker
+
+## Deployed Website LINK
+https://calla-note-taker.herokuapp.com/notes
+
+## Email Address
 callasteven@gmail.com
 
 ## Select a License
