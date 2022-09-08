@@ -1,4 +1,4 @@
-# NOTE TAKER 
+# EMPLOYEE TRACKER 
 [![License:  MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Index
@@ -15,24 +15,20 @@
 ## Description
 
 ```
-This app allows the user to track tasks by providng the ability to write, save and delete notes. When the user opens Note Taker, a landing page is presented with a link to the notes page. After clicking on the link to the notes page the user is presented with a list of existing notes in the left hand column along a note taking feature in the right hand column. 
-
-The user can use the note taking feature to enter the note title and text then click the save button to populate the note in the left hand column with other notes. If the user would like to enter another note, the plus symbol clears the note taking feature. If the user would like delete a note they can click on the delete (trash) icon. 
+This app is a command-line interface (CLI) that allows a company to view and manage the departments, roles and employees. At the command line the user can generate reports showing all deparments, roles, employees, employees by role, employees by manager, salary by department as well as add, delete departments, roles, employees and update an employees role or manager. 
 ```
 
 ## Installation
 
-(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install the NPM Express dependency), (4) Run "node server.js" to start the server (from the root directory), (5) To open the home page go to http://localhost:3001/. 
-
-If you'd like to use NPM nodemon as/if you make changes to the code, please install nodemon as a development dependency using "npm install --save-dev nodemon" (see https://www.npmjs.com/package//nodemon).
+(1) Fork the repo, (2) Clone the forked repo locally, (3) Run "npm install" (to install the dependencies), (4) Run "node server.js" to start the server (from the root directory), (6) Run "node.index.js" to start the employee tracker CLI.
 
 ## Usage
 
-This app creates a website which allows a user to track tasks by enter notes for each task.
+If you'd like to use NPM nodemon as/if you make changes to the code, please install nodemon as a development dependency using "npm install --save-dev nodemon" (see https://www.npmjs.com/package//nodemon).This CLI allows a user to view and manage the departments, roles and employees of a company.
 
 ## Features
 
-This app includes features such as (a) the ability to enter a note title and text, (b) the ability to save each note, (c) the ability to delete each note.
+This app includes features such as (a) the ability to generate reports showing all deparments, roles, employees, employees by role, employees by manager, salary by department, (b) add, delete departments, roles, employees, and (c) update an employees role or manager.
 <!-- 
 1. TBD
 2. TBD
@@ -40,7 +36,7 @@ This app includes features such as (a) the ability to enter a note title and tex
 -->
 ## Future Enhancements
 
-This app can be enhanced by (a) allowing the user to modify notes, (b) adding additional note fields such as date entered (as a default, due date, a status for each note (such as todo, in progress, complete) as an icon or drop down and more, (c) the ability to sort notes based on various criteria such as date due or status or using drag and drop functionality, (d) the ability to archive notes or group notes based on common tasks, and (e) more.
+This app can be enhanced by (a) using/adding dates such as created at, updated at, deleted at to track information by time, (b) add soft and hard delete options so users can recover changes if necessary, (c) add the ability to manage middle names, (d) add more fields for employees or roles such as employee salary, date of birth, social security number (secured in some manner), email address, position start date and more, (e) add ka secure password for the mysql database connection, and (f) add additional testing.
 <!-- 
 1. TBD
 2. TBD
@@ -49,13 +45,13 @@ This app can be enhanced by (a) allowing the user to modify notes, (b) adding ad
 
 ## App Preview - Static Screenshot
 
-<img alt="" src="./assets/images/webpage-static-image.jpeg" width="100%" height="425"/>
+<img alt="" src="./dist/images/static-image.jpeg" width="100%" height="425"/>
 
 
 ## App Preview - Video Preview
 [Link to Video](https://www.youtube.com/watch?v=_hr9SKZC5Rc&feature=youtu.be)
 
-<img alt="" src="./assets/images/app-video-demo.gif" width="100%" height="425"/>
+<img alt="" src="./dist/images/app-video.jpeg" width="100%" height="425"/>
 
 ## Tests
 
@@ -76,8 +72,8 @@ Contributor Covenant Code of Conduct
 ## Resources
 
 1. Project Manager: [Steve Calla - GitHub Profile](https://github.com/stevecalla)
-2. GitHub Repo: <https://github.com/stevecalla/note-taker>
-3. GitHub Hosted URL: <https://calla-note-taker.herokuapp.com/notes>
+2. GitHub Repo: <https://github.com/stevecalla/employee-tracker>
+3. GitHub Hosted URL: <None. This is command-line interface (CLI) using node.js.>
 4. Contact: [Email Steve](mailto:callasteven@gmail.com)
 
 ## License 
